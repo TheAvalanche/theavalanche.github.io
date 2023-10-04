@@ -434,9 +434,6 @@ ol {
   padding: 45px 24px;
   position: relative;
 }
-.main-menu li a:hover {
-  color: #ffffff;
-}
 .main-menu li.active a {
   background: #d3c3b8;
 }

@@ -458,9 +458,6 @@ ol {
       color: $fontColor;
       padding: 45px 24px;
       position: relative;
-      &:hover {
-        color: $color;
-      }
     }
     &.active {
       a {
