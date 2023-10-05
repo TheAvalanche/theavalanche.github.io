@@ -77,13 +77,17 @@
                                                 
 	<!-- Hero section -->
 	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
-		<div class="hero-slider owl-carousel">
-			<div class="hs-item">
-				<div class="container">
-					<h1 class="text-white">KirchHolm Studio</h1>
-					<h3 class="text-white">Full-service recording studio</h3>
-					<p class="text-white">We help musicians to implement their creative ideas.</p>
+		<div class="container h-100">
+			<div class="d-flex flex-column justify-content-between" style="height: 70%">
+				<div>
+					<h1 class="text-white mt-5 display-2 d-none d-md-block">KirchHolm Studio</h1>
+					<h1 class="text-white mt-5 display-4 d-block d-md-none">KirchHolm Studio</h1>
+					<h3 class="text-lighter">Full-service recording studio</h3>
 				</div>
+				<button class="btn site-btn align-self-center" onclick="scrollToAnchor('contact')" style="width: 275px">Contact</button>
+				<blockquote class="blockquote">
+					<p class="text-white h5"><i>"We help musicians to implement their creative ideas."</i></p>
+				</blockquote>
 			</div>
 		</div>
 	</section>
@@ -91,36 +95,48 @@
 
 	<section id="services" class="promotion-section">
 		<div class="container">
+			<div class="row">
+				<div class="col text-center my-3">
+					<h2 class="text-white">Services</h2>
+				</div>
+			</div>
 			<div class="row text-white">
 				<div class="col-md-4">
-					<div class="promo-box set-bg" data-setbg="img/promo/1.jpg">
-						<h2>Mixing & Mastering</h2>
+					<div class="promo-box set-bg text-center" data-setbg="img/promo/1.jpg">
+						<h3>Production & Arrangements</h3>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="promo-box set-bg" data-setbg="img/promo/2.jpg">
-						<h2>Production & Arrangements</h2>
+					<div class="promo-box set-bg text-center" data-setbg="img/promo/2.jpg">
+						<h3>Recording</h3>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="promo-box set-bg" data-setbg="img/promo/3.jpg">
-						<h2>Recording</h2>
+					<div class="promo-box set-bg text-center" data-setbg="img/promo/3.jpg">
+						<h3>Mixing & Mastering</h3>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col">
-					<p>When people come to us with finished songs, in addition to the recording and mixing itself, we can help with adding new parts, synths, and post-production effects so that your music opens up to its maximum.</p>
-					<p>Also, you can only come to us with song ideas or guitar sketches. We will help you write the arrangement and record all the instruments and vocals.</p>
-					<p>We do not record “backing tracks” or “gift songs”, but we can help make a cover song in your style if a creative approach is implied.</p>
-					<p>We aim to increase awareness about Latvian musicians for as many listeners as possible.</p>
+			<hr class="my-5">
+			<div class="row justify-content-center">
+				<div class="col-sm-12 col-lg-8">
+					<p>When individuals approach us with completed songs, in addition to the recording and mixing process, we offer our expertise in enhancing your music by incorporating new elements such as synths and post-production effects. Our goal is to help your music reach its full potential.</p>
+					<p>Alternatively, you're welcome to bring us your song concepts or guitar sketches. We'll assist you in crafting the arrangement and meticulously record all the instruments and vocals necessary to bring your vision to life.</p>
+					<p>Please note that we do not provide services for "backing tracks" or "gift songs." However, if you have a creative concept in mind, we can collaborate with you to produce a unique cover song in your preferred style.</p>
+					<p class="mb-0">Our primary objective is to raise awareness about Latvian musicians and share their talent with as many listeners as possible."</p>
 				</div>
 			</div>
+			<hr class="my-5">
 		</div>
 	</section>
 
-	<section id="portfolio">
+	<section id="portfolio" class="mt-5">
 		<div class="container">
+			<div class="row">
+				<div class="col text-center my-3">
+					<h2>Portfolio</h2>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col">
 					<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1698827484&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kirchholmstudio" title="KirchHolm Studio" target="_blank" style="color: #cccccc; text-decoration: none;">KirchHolm Studio</a> · <a href="https://soundcloud.com/kirchholmstudio/sets/portfolio" title="Portfolio" target="_blank" style="color: #cccccc; text-decoration: none;">Portfolio</a></div>
@@ -131,21 +147,26 @@
 
 
 	<!-- Footer Top section -->
-	<section id="contact" class="footer-top-section">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h2>Contact</h2>
+	<section id="contact" class="footer-top-section mt-5">
+		<div class="container p-3">
+			<div class="row mt-4">
+				<div class="col text-center my-3">
+					<h2 class="text-white">Contact</h2>
+					<p class="text-white mb-0">Feel free to call or write:</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col">
-					<div class="contact-info">
-						<p><span>A:</span> Apogu iela, Salaspils</p>
-						<p><span>T:</span> +37128272988</p>
-						<p><span>E:</span> alexkartishev@gmail.com</p>
+			<div class="row mt-4">
+				<div class="col text-center">
+					<div>
+						<p class="mb-0 text-lighter"><span><i class="fa fa-phone"></i>&nbsp;</span>+371 28272988</p>
+						<p class="mb-0 text-lighter"><span><i class="fa fa-envelope"></i>&nbsp;</span>alexkartishev@gmail.com</p>
+						<p class="mb-0 text-lighter"><span><i class="fa fa-location-arrow"></i>&nbsp;</span>Apogu iela, Salaspils</p>
 					</div>
-					<div class="header-social-links">
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col text-center">
+					<div class="footer-social-links">
 						<a href="https://soundcloud.com/kirchholmstudio"><i class="fa fa-soundcloud"></i></a>
 						<a href="https://www.instagram.com/kirchholm.studio/"><i class="fa fa-instagram"></i></a>
 						<a href="https://www.facebook.com/kirchholmstudio"><i class="fa fa-facebook"></i></a>
@@ -153,7 +174,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row mt-4">
 				<div class="col">
 					<div class="map" id="map-canvas"></div>
 				</div>

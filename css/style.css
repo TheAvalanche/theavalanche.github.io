@@ -57,7 +57,7 @@ h6 {
 p {
   font-size: 14px;
   color: #524137;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 img {
@@ -131,11 +131,11 @@ ol {
   border: none;
   font-size: 18px;
   font-weight: 700;
-  color: #1b1b1b;
+  color: #ffffff;
   min-width: 146px;
   padding: 9px 10px;
   border-radius: 5px;
-  background: #ffffff;
+  background: #f54605;
   cursor: pointer;
 }
 .site-btn.sb-dark {
@@ -479,6 +479,27 @@ ol {
   margin-left: 0;
 }
 
+.text-lighter {
+  color: #d3c3b8;
+}
+
+.footer-social-links a {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  color: #d3c3b8;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d3c3b8;
+  border-radius: 50%;
+  font-size: 15px;
+  margin-left: 14px;
+}
+.footer-social-links a:first-child {
+  margin-left: 0;
+}
+
 /*------------------
   Hero section
 ---------------------*/
@@ -584,11 +605,11 @@ ol {
   promotion Section
 -----------------------*/
 .promotion-section {
-  margin-top: -167px;
+  margin-top: -210px;
 }
 
 .promo-box {
-  height: 370px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,7 +629,7 @@ ol {
   left: 0;
   top: 0;
   background: #000;
-  opacity: 0.75;
+  opacity: 0.5;
   z-index: 1;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -625,17 +646,9 @@ ol {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-.promo-box h2 {
+.promo-box h3 {
   position: relative;
   z-index: 3;
-}
-.promo-box:hover:before {
-  opacity: 0;
-}
-.promo-box:hover:after {
-  width: 100%;
-  left: 0;
-  right: auto;
 }
 
 .track-name {
@@ -712,8 +725,6 @@ ol {
 
 .footer-top-section {
   background: #212121;
-  padding-top: 100px;
-  padding-bottom: 70px;
 }
 
 .ft-widget ul {
@@ -1382,17 +1393,6 @@ ol {
   margin-right: 0;
 }
 
-.contact-info {
-  text-align: center;
-  margin-bottom: 50px;
-}
-.contact-info p {
-  margin-bottom: 0;
-}
-.contact-info p span {
-  color: #ffffff;
-}
-
 .map {
   height: 563px;
   background: #ddd;
@@ -1549,7 +1549,7 @@ ol {
     display: block;
     float: right;
     font-size: 32px;
-    color: #fff;
+    color: #524137;
     cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;

@@ -43,22 +43,6 @@ $(window).on('load', function () {
 
 
     /*------------------
-        Hero Slider
-    --------------------*/
-    $('.hero-slider').owlCarousel({
-        loop: true,
-        nav: true,
-        dots: true,
-        mouseDrag: false,
-        navText: ['<i class="fa fa-angle-double-left"></i>', '<i class="fa fa-angle-double-right"></i>'],
-        animateOut: 'fadeOut',
-        animateIn: 'fadeIn',
-        items: 1,
-        autoplay: true
-    });
-
-
-    /*------------------
         Accordions
     --------------------*/
     $('.panel-link').on('click', function (e) {
